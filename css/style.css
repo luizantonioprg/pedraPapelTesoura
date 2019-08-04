@@ -1,0 +1,70 @@
+/* CSS */
+*{
+box-sizing:border-box;
+}
+body{
+margin: 0;
+padding: 0;
+background-color:#599532;
+}
+.container{
+max-width: 800px;
+display: flex;
+justify-content: space-between;
+/*border:1px solid black;*/
+margin: 0 auto;
+margin-top: 5vh;
+}
+.escolha{
+width:350px;
+height:350px;
+font-family: 'Nunito', sans-serif;
+background: #1D4B00;
+}
+h1{
+margin: 0;
+padding: 0;
+background: yellow;
+padding-left: 5px;
+}
+.ppt{
+/*border:1px solid green;*/
+margin:0 auto;
+max-width: 310px;
+margin-top: 5vh;
+margin-bottom: 10vh;
+
+
+}
+img{
+border-radius: 50%;
+border:dashed 5px #1D4B00;
+}
+#player,#computer{
+background-size: cover;
+}
+a{
+display: block;
+border:dashed 5px #1D4B00;
+text-align: center;
+border-radius: 20px;
+padding: 15px;
+max-width:100px;
+color: white;
+text-decoration: none;
+transition: .2s;
+margin: 0 auto;
+}
+a:hover{
+background: #1D4B00;
+border:white 5px solid;
+}
+img:hover{
+transform: translate3d(0,-10px,0);
+cursor: pointer;
+}
+h4{
+text-align: center;
+font-family: 'Nunito', sans-serif;
+opacity: 0;
+}

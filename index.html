@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Pedra,Papel,Tesoura</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        
+    </head>
+<body>
+    <div class="container">
+        <div class="escolha" id="player">
+            <h1>Você</h1>
+        </div>
+        <div class="escolha" id="computer">
+            <h1>Computador</h1>
+        </div>
+    </div>
+
+    <div class="ppt">
+
+        <img src="images/avatar-2029577_640.png" id="tesoura" width="100px" height="100px" onclick="verificaEscolha(this.id)">
+        <img src="images/blank-1295186_640.png" id="papel" width="100px" height="100px"onclick="verificaEscolha(this.id)">
+        <img src="images/rock-576682_640.png" id="pedra" width="100px" height="100px"onclick="verificaEscolha(this.id)">
+
+    </div>
+    <h4 id="h4">Reiniciando...</h4>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
